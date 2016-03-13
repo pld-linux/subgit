@@ -1,14 +1,16 @@
 %include	/usr/lib/rpm/macros.java
 Summary:	Tool to migrate from subversion to git
 Name:		subgit
-Version:	3.0.0
-Release:	1
+Version:	3.1.1
+Release:	0.1
 # You may use SubGit for evaluation purposes without a registration as long as you like
 # For production use registration is required.
+# Import any project is Free
+# http://www.subgit.com/pricing.html
 License:	not redistributable
 Group:		Development/Version Control
 Source0:	http://old.subgit.com/download/%{name}-%{version}.zip
-# NoSource0-md5:	14e4b0cb5a45e9d5348d5ebef800475a
+# NoSource0-md5:	39311874560161400360ad0fbd8c965b
 NoSource:	0
 URL:		http://www.subgit.com/
 BuildRequires:	sed >= 4.0
