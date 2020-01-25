@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.java
 Summary:	Tool to migrate from subversion to git
 Name:		subgit
 Version:	3.1.1
